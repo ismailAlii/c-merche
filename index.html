@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="shortcut icon" href="#">
+  <!-- CSS Files -->
+  <!-- Awesome Icons -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Normalize File -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Main File -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>E-commerce product page</title>
+</head>
+<body>
+  <!-- Start Header -->
+  <!-- Start Mobile Lists -->
+  <div class="layer"></div>
+  <div class="mobile-menu">
+    <a href="#" class="borger-close"><img src="images/icon-close.svg" alt=""></a>
+    <ul class="mobile-list">
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <!-- End Mobile Lists -->
+  <header>
+    <div class="container">
+      <!-- Cart Page -->
+      <div class="cart-page">
+        <div class="header">
+          <h4>Cart</h4>
+        </div>
+        <div class="cart-content">
+          <button class="checkout">Checkout</button>
+          <p class="empty-cart">
+            Your cart is empty
+          </p>
+        </div>
+      </div>
+      <div class="left">
+        <div class="borger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="logo">
+          <a href="#"><img src="images/logo.svg" alt=""></a>
+        </div>
+        <ul class="main-list">
+          <li><a href="#" class="active">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="cart">
+          <a href="#"><img src="images/icon-cart.svg" alt=""></a>
+          <span class="noti-prod">0</span>
+        </div>
+        <div class="avatar">
+          <a href="#"><img src="images/image-avatar.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+  <!-- Start Landing -->
+  <div class="landing">
+    <div class="container">
+      <div class="left">
+        <div class="main-img">
+          <img src="images/image-product-1.jpg" alt="">
+          <button class="left"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="right"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="thumbnails">
+          <div class="thumb thumb-active">
+            <img src="images/image-product-1-thumbnail.jpg" alt="">
+          </div>
+          <div class="thumb">
+            <img src="images/image-product-2-thumbnail.jpg" alt="">
+          </div>
+          <div class="thumb">
+            <img src="images/image-product-3-thumbnail.jpg" alt="">
+          </div>
+          <div class="thumb">
+            <img src="images/image-product-4-thumbnail.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="text">
+          <h4>Sneaker Company</h4>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <div class="price">
+            <div class="main-price">
+              <h3>$125.00</h3>
+              <span class="offer">50%</span>
+            </div>
+            <div class="pre-price">$250.00</div>
+          </div>
+        </div>
+        <div class="add-cart">
+          <div class="prod-nums">
+            <button class="minus"><i class="fa-solid fa-minus"></i></button>
+            <div class="num">0</div>
+            <button class="plus"><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <button id="addToCart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Add To Cart</p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Landing -->
+  <script src="app.js"></script>
+</body>
+</html>
